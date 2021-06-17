@@ -6,6 +6,15 @@ The locations where the words will be searched: `Groningen` `Enschede`.
 
 The words this script will search: `Moi`, `moi`, `Hallo`, `hallo`.
 
+### Versions
+The script is runned in Windows 10, using the Ubuntu terminal. 
+
+Windows:            `Microsoft Windows 10 Home | 10.0.19041 N/A Build 19041`
+
+Ubuntu terminal:    `Ubuntu 20.04.2 LTS`
+
+jq:                 `jq-1.6`
+
 ## Files
 * **`README.md`** File with information about this GitHub repository.
 * **`get_tweets.sh`** The shell script that will output the results for every word in every place given above in multiple output `.tsv` files. 
