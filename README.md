@@ -44,7 +44,7 @@ $ git clone https://github.com/emield98/IWO_final_project.git
 ## Running the script
 ----
 To run the script go through the following steps:
-1. Make sure you have a directory `tweets_corpus`, containing all the tweets in `.out.gz` format.
+1. Make sure you change the location to the directory of the Twitter corpus in the script `get_tweets.sh`, containing all the tweets in `.out.gz` format.
 2. Make sure you have installed `jq`:
     - type: `$  sudo apt-get install jq`
 4. Type: `$ ./get_tweets.sh`.
