@@ -19,6 +19,10 @@ jq:                 `jq-1.6`
 * **`README.md`** File with information about this GitHub repository.
 * **`get_tweets.sh`** The shell script that will output the results for every word in every place given above in multiple output `.tsv` files. 
 * **`count_tweets.sh`** The shell script that will count the amount of tweets given in the output files of `get_tweets.sh`.
+* **`06_2016/`** The directory that contains the Twitter corpus of 06-2016, tweeted from the Netherlands (note: empty map since it is a large corpus).
+* **`03_2019/`** The directory that contains the Twitter corpus of 03-2019, tweeted from the Netherlands (note: empty map since it is a large corpus).
+* **`03_2019_results/`** The directory that contains the `.tsv` files, given as output by `get_tweets.sh` for corpus `06_2016/`.
+* **`03_2019_results/`** The directory that contains the `.tsv` files, given as output by `get_tweets.sh` for corpus `03_2019/`.
 
 ## Getting started
 This repository can be runned in two ways:
@@ -42,8 +46,7 @@ $ git clone https://github.com/emield98/IWO_final_project.git
 5. Change directory in the shell (by typing `$ cd IWO_final_project/`) to this repository.
 
 ## Running the script
-----
-To run the script go through the following steps:
+To run the script `get_tweets.sh` go through the following steps:
 1. Make sure you change the location to the directory of the Twitter corpus in the script `get_tweets.sh`, containing all the tweets in `.out.gz` format.
 2. Make sure you have installed `jq`:
     - type: `$  sudo apt-get install jq`
@@ -58,9 +61,36 @@ To run the script go through the following steps:
     - `moi_enschede_cap.tsv`
     - `hallo_enschede.tsv`
     - `hallo_enschede_cap.tsv`
-7. To  
+    (if you want to change those names, it can be  done in `get_tweets.sh`)
+
+
+To count the amount of occurences, you have to run `count_tweets.py`:
+1. First, edit the links in `count_tweets.sh` to the location of the `.tsv` files. 
+2. Type: `$ ./count_tweets.py`
+3. This program counts the tweets and will output it. For example: `moi` and `Moi` are combined for the results of `moi`. 
+
 
 ## Results
+The results for this repository, which was needed for the final report of Introduction to Research Methods, is the following:
+```shell 
+moi in Groningen:
+126
+hallo in Groningen:
+836
+total tweets in Groningen:
+962
 
 
+moi in Enschede:
+39
+hallo in Enschede:
+168
+total tweets in Enschede:
+207
+```
 
+The Twitter corpus that is used is two months of messages tweeted from the Netherlands:
+- 06-2016
+- 03-2019
+
+See for further information the report.
