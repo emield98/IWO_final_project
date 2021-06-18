@@ -2,7 +2,7 @@
 
 This GitHub repository is created for the final project of the course Introduction to Research Methods. The shell scripts will count the amount of occurences in a corpus of tweets for a given word in a given location. 
 
-The locations where the words will be searched: `Groningen` `Enschede`.
+The locations where the words will be searched: `Groningen`, `Enschede`.
 
 The words this script will search: `Moi`, `moi`, `Hallo`, `hallo`.
 
@@ -93,4 +93,4 @@ The Twitter corpus that is used is two months of messages tweeted from the Nethe
 - 06-2016
 - 03-2019
 
-See for further information the report.
+See for further information the research report.
