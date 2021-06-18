@@ -21,8 +21,8 @@ jq:                 `jq-1.6`
 * **`count_tweets.sh`** The shell script that will count the amount of tweets given in the output files of `get_tweets.sh`.
 * **`06_2016/`** The directory that contains the Twitter corpus of 06-2016, tweeted from the Netherlands (note: empty map since it is a large corpus).
 * **`03_2019/`** The directory that contains the Twitter corpus of 03-2019, tweeted from the Netherlands (note: empty map since it is a large corpus).
-* **`03_2019_results/`** The directory that contains the `.tsv` files, given as output by `get_tweets.sh` for corpus `06_2016/`.
-* **`03_2019_results/`** The directory that contains the `.tsv` files, given as output by `get_tweets.sh` for corpus `03_2019/`.
+* **`03_2019_results/`** The directory that contains the `.tsv` files, given as output by `get_tweets.sh` for corpus `06_2016/` (note: empty, due to privacy content).
+* **`03_2019_results/`** The directory that contains the `.tsv` files, given as output by `get_tweets.sh` for corpus `03_2019/` (note: empty, due to privacy content).
 
 ## Getting started
 This repository can be runned in two ways:
